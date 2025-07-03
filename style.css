@@ -1,0 +1,45 @@
+/* Style for the main title on index.html */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+    color: #2c3e50;
+    text-transform: uppercase;
+    padding: 2rem;
+    background-color: #76bed0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, rgba(118, 190, 208, 0.2), rgba(118, 190, 208, 1));
+}
+/* Change background color of list items on hover */
+/* regular block goes all the way horizontal */
+/* This below is same color for all links */
+/* li:hover a {
+    display: inline-block;
+    background-color: #76bed0;
+    transition: background-color 0.3s;
+    border-radius: 60px;
+    background: linear-gradient(to right, rgba(118, 190, 208, 0.2), rgba(118, 190, 208, 1));
+    padding: 0 50px;}  */
+
+/* Unique hover effects for each bullet point */
+li.fries-item:hover a {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: #2c3e50;
+    box-shadow: 0 2px 8px rgba(252, 182, 159, 0.3);
+}
+
+li.chicken-item:hover a {
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    color: #1a237e;
+    box-shadow: 0 2px 8px rgba(161, 196, 253, 0.3);
+}
+
+li.wrizz-item:hover a {
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+    color: #4a148c;
+    box-shadow: 0 2px 8px rgba(251, 194, 235, 0.3);
+}
