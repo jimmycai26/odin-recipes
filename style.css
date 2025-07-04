@@ -14,6 +14,7 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background: linear-gradient(to right, rgba(118, 190, 208, 0.2), rgba(118, 190, 208, 1));
 }
+
 /* Change background color of list items on hover */
 /* regular block goes all the way horizontal */
 /* This below is same color for all links */
@@ -42,4 +43,49 @@ li.wrizz-item:hover a {
     background: linear-gradient(to right, #fbc2eb, #a6c1ee);
     color: #4a148c;
     box-shadow: 0 2px 8px rgba(251, 194, 235, 0.3);
+}
+
+.recipe-links {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        margin: 2rem 0rem;
+        list-style: none;
+        padding: 10,;
+        background-color: lightgoldenrodyellow;
+        border-radius: 6px;
+    }
+    .recipe-links li {
+        font-size: 2rem;
+        font-style: italic;
+        padding: 0 3rem;
+        letter-spacing: 1px;
+    }
+
+/* Style for the marquee text */
+.slider{
+    position: relative;
+    white-space: nowrap;
+    animation: slider 10s linear infinite;
+    font-size: 3rem;
+    color: #2c3e50;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+.icon{
+    margin-right: 0.2em;
+}
+
+@keyframes slider {
+  0%   { transform: translateX(-10%); }
+  100% { transform: translateX(100%); }
+}
+
+/* Style for the baby image in index.html */
+.baby{
+    display:block;
+    margin: 1em auto;
+}
+img{
+    border-radius: 4px;
 }
